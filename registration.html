@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    body {
+      background-image: url(images/home.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+    }
+
+    form {
+      width: 400px;
+	height: 750px;
+	background: rgba(170, 129, 129, 0.5);
+	color: #221919;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px , 30px;
+     
+    }
+
+    input[type=text], input[type=password], input[type=email] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #d3e4d8;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button[type=submit] {
+      background-color: #33c437;
+      color: rgb(26, 12, 12);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    button[type=submit]:hover {
+      background-color: rgb(27, 133, 41);
+    }
+
+    .container {
+      padding: 16px;
+    }
+
+    span.psw {
+      float: right;
+      padding-top: 16px;
+    }
+
+    @media screen and (max-width: 600px) {
+      form {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <form action="register.php" method="post">
+  
+    <div class="container">
+      <h1>Register</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+
+      <label for="name"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="name" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Enter Email" name="email" required>
+
+      <label for="phone"><b>Phone Number</b></label>
+      <input type="text" placeholder="Enter Phone Number" name="phone" required>
+
+      <label for="address"><b>Address</b></label>
+      <input type="text" placeholder="Enter Address" name="address" required>
+
+      <label for="password"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" minlength="6" name="password" required>
+
+      
+      <hr>
+
+      <button type="submit">Register</button>
+      
+      
+    </div>
+
+    <div class="container" style="background-color:rgba(129, 231, 238, 0.576)">
+      <p>If already registered <a href="Login.html">login</a>.</p>
+    </div>
+  </form>
+</body>
+</html>

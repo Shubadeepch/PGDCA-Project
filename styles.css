@@ -1,0 +1,90 @@
+<style>
+  /* Resetting default margin and padding for elements */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .banner {
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .banner h1 {
+    font-size: 3em;
+  }
+
+  .services {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .services h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+  }
+
+  .service-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: 250px;
+    background-color: #fff;
+  }
+
+  .service-card h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+  }
+
+  footer p {
+    margin: 5px 0;
+  }
+</style>
